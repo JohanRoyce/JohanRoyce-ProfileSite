@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Talk to Me</title>
+        <link rel="stylesheet" type="text/css" href="ContactDeskSty.css" media="only screen and 
+        (min-width:960px)">
+        <!-- tablet style sheet--> 
+        <link rel="stylesheet" type="text/css" href="ContactTabSty.css" media="only screen and 
+        (min-width:481px) and (max-width:960px)"> 
+        <!-- phone style sheet--> 
+        <link rel="stylesheet" type="text/css" href="ContactPhoneSty.css" media="only screen and 
+        (max-width:480px)"> 
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="mailto:johanroyce1@gmail.com" method="post" enctype="text/plain" name="form">
+                <header>
+                    <nav>
+                        <a href="homepage.html">Home</a>| 
+                        <a href="contactpage.html">Contact</a>|
+                        <a href="projectspage.html">Projects</a>|
+                        <a href="aboutpage.html">About</a>
+                    </nav>
+                </header>
+                <aside>
+                <div class=sidebox>
+                    <p><h2> Contact Page</h2>  
+                </div>
+                <div class="clear"></div>
+                <div class=sidebox>
+                    <p><h3> Do you have any quetions for me, need help with some programming, or just need
+                            need a friend to talk to? Well then just fill out the form on screen so we can get 
+                            started and who know I may end up contacting you for help too.</h3> 
+                </div>
+                </aside>
+                <article>
+                    <h2> Message Form </h2>
+                    <p> 
+                        <label for="name">Your Name</label><br>
+                        <input type="text" id="name" placeholder="E.g. John Doe" name="name" size="32" required> 
+                    </p>
+                    <p> 
+                        <label for="email">Your Email</label><br> 
+                        <input type="email"  id="email" name="email" size="40" required> 
+                    </p>   
+                    <p> 
+                        <label for="phonenumber">Your Phone Number</label><br> 
+                        <input type="tel" id="phonenumber" placeholder="E.g. No spaces or parentheses " size="40" required> 
+                    </p>
+                    <p> 
+                        <label for="comments">Message</label><br> 
+                        <textarea name="comments" id="comments" cols="60" rows="6"></textarea> 
+                    </p> 
+                    <p><input type="submit" value="Click here to submit the form"></p> 
+                    <p><input type="reset" value="Click here to reset the form"></p> 
+
+                </article>
+                <div class="clear"></div>
+                <footer>
+                    <h5>Site by Johan Royce</h5>
+                </footer>
+            </form>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+body {
+    background: linear-gradient(to bottom, #CAE3CA 0%,#E685C8 100%); 
+    background-color: black;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+
+    
+}
+
+#wrapper {
+    width: 960px;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#5790E6 ;
+    }
+
+    header { 
+        background-color: #49994A;
+        text-align: center;
+        color: red; 
+        height:50px;
+        padding-top:10px; 
+        padding-bottom:10px;
+        padding-left: 15px; 
+        margin: 10px auto;
+        }
+
+    article { 
+        float: left;
+        background-color: #E685C8; 
+        width: 325px; 
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 20px; 
+        }  
+
+    #videobox {
+        float: right;
+        background-color:#49994A; 
+        text-align: center;
+        width: 500px; 
+        margin-top: 20px;
+        margin-right: 20px;  
+        padding: 10px;     
+    }
+
+    
+    
+#video{
+    width: 350px;
+    height: 410px; 
+    padding: 15px; 
+    margin: 30px; 
+    background-color:black; 
+    border:2px white solid; 
+    box-shadow: 10px 10px 5px #992B76; 
+}
+
+
+.clear{
+    clear: both;
+    }
+
+    footer { 
+    background-color: #992B76;
+    text-align: center;
+    color: red; 
+    height:50px;
+    padding-top:10px; 
+    padding-bottom:10px;
+    padding-left: 15px; 
+    margin: 100px auto;
+    }

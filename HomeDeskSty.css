@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+body {
+    background: linear-gradient(to bottom, #CAE3CA 0%,#E685C8 100%); 
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+
+    
+}
+
+#wrapper {
+    width: 960px;
+    height: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#5790E6 ;
+    }
+
+    header { 
+        background-color: #49994A;
+        text-align: center;
+        color: red; 
+        height:50px;
+        padding-top:10px; 
+        padding-bottom:10px;
+        padding-left: 15px; 
+        margin: 10px auto;
+        }
+    
+        
+    article { 
+        background-color: #CAE3CA; 
+        width: 800px; 
+        margin-left: 70px;
+        margin-top: 40px; 
+        padding: 10px; 
+        text-align: center;
+        } 
+
+    aside{
+        display: flex;
+        justify-content: space-around;
+        background-color: #49994A; 
+        width: 800px; 
+        margin-top: 30px; 
+        margin-left: 70px;
+        padding: 10px; 
+    }
+
+    .sidebox {
+        background-color: #E685C8; 
+        width: 200px;
+        height:100px; 
+        margin: 10px; 
+        padding: 10px; 
+        text-align: center;
+    }
+    
+    .clear{
+        clear: both;
+        }
+
+    footer { 
+        background-color: #992B76;
+        text-align: center;
+        color: red; 
+        height:50px;
+        padding-top:10px; 
+        padding-bottom:10px;
+        padding-left: 15px; 
+        margin: 100px auto;
+        }
